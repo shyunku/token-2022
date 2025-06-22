@@ -52,6 +52,3 @@ config = "scripts/spellcheck.toml"
 pre-release-commit-message = "Publish {{crate_name}} v{{version}}"
 tag-message = "Publish {{crate_name}} v{{version}}"
 consolidate-commits = false
-
-[dependencies]
-getrandom = { version = "0.3.3", features = ["custom"] }
