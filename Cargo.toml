@@ -53,5 +53,5 @@ pre-release-commit-message = "Publish {{crate_name}} v{{version}}"
 tag-message = "Publish {{crate_name}} v{{version}}"
 consolidate-commits = false
 
-[patch.crates-io]
-getrandom = { version = "0.2", features = ["custom"] }
+[dependencies]
+getrandom = { version = "0.3.3", features = ["custom"] }
